@@ -1,0 +1,15 @@
+【写真表示修正版・GitHub Pagesアップロード手順】
+
+1. ZIPファイルを必ず展開します。ZIP自体はGitHubへアップロードしません。
+2. GitHubのNABEXサイト用リポジトリを開きます。
+3. 「Add file」→「Upload files」を押します。
+4. 展開したフォルダ内のファイルを、写真を含めてすべて選択します。
+5. index.html、hero-web.png、service-app.png、service-video.png、service-outsourcing.png、nabex-logo.pngなどが、リポジトリの一番上に並んでいることを確認します。
+6. 「Commit changes」を押します。
+7. Settings → Pages で「Deploy from a branch」「main」「/(root)」を選びます。
+8. 2〜5分待ち、公開ページで Ctrl＋F5 を押して更新します。
+
+重要：
+・今回は写真を「assetsフォルダ」ではなく、HTMLと同じ場所に入れています。
+・NABEX-GitHub-Pagesフォルダごとアップロードせず、フォルダの中身をリポジトリの一番上へ置いてください。
+・写真ファイルを1枚でもアップロードし忘れると、その写真は表示されません。
